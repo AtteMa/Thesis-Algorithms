@@ -22,7 +22,6 @@ python preprocessing.py input_file.txt output_file.txt --p-ref 40
 ```
 
 ## Arguments
-|----------|-------------|
 | `input_file.txt` | Raw pitch file with columns `time_s freq_hz` |
 | `output_file.txt` | (Optional) Output path. Defaults to `<input>_grouped.txt` |
 | `--p-ref` | Reference MIDI pitch for octave folding (default: `60`) |
@@ -41,7 +40,6 @@ python dtw.py file_a.txt file_b.txt --scale 3.0 --output results.csv
 ```
 
 ## Arguments
-|----------|-------------|
 | `file_a.txt` | First preprocessed melody file |
 | `file_b.txt` | Second preprocessed melody file |
 | `--scale` | Semitone sensitivity scale for similarity decay (default: `3.0`) |
